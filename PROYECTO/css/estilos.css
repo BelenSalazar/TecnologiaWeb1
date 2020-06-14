@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }  
+body {
+    width: 100%;
+    font-family: Garamond, Sans-serif;
+    font-size: 16px;
+    background: #2BBDBD;
+    background-size: 400px 400px;
+    color: #333233;
+    /*padding-bottom: 200em;*/
+  }
+.contenedor {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #333232;
+    padding: 20px 50px;
+   /* border-radius: 20px;
+    overflow: hidden;
+	max-width: 1000px;*/
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+ }
+header {
+    height: 150px;
+    width: 100%;
+    padding: 50px 20px;
+    /*margin: auto;*/
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+    background: #333232;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}  
+header nav {
+    width: 90%;
+    font-family: Garamond, bold;
+    font-size: 26px;
+    background: #2BBDBD;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: flex-end;
+   /* width: 1300px;
+    align-items: flex-end;
+    margin: 30px;*/
+}
+header nav ul {
+     list-style: none;
+     overflow: hidden; 
+}
+header nav ul li {
+    float: left; 
+}
+header nav ul li a {
+   text-decoration: none;
+   display: inline-block;
+   color: #2BBDBD;
+   padding: 10px 8px; }
+header nav ul li a {
+ color: #ffffff; }
+ header .logo {
+width: 600px;
+ float:right;
+ }
+ .articulo {
+    background: #dee1e1;
+    width: 1000px;
+    height: 800px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+	/*padding: 20px;
+    width: 70%;*/
+}
+.parrafo{
+  font-size:16px ;
+  font-family: Garamond;
+  text-align: justify;
+  line-height: 500px;
+}
+#Destacado {
+    border-bottom-color: #2BBDBD;
+    border-bottom-width: 5px;
+    border-bottom-style:solid;
+}
+#ParrafoDestacado{
+   border-color: #2BBDBD;
+   border-width: 10px;
+   padding: 10px;
+   border-style: solid;
+}
+main {
+    width: 90%;
+    float: left;
+    background: #333232;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;;
+}
+main .CORONAVIRUS-INDEX img{  
+   width: 1000px; 
+   vertical-align: top;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   margin-right: 0;
+}
+ main .articulo {
+    padding: 50px; 
+}
+ main .articulo article h2 {
+    margin-bottom: 20px;
+    color: #333232; 
+}
+main .articulo article p {
+    margin-bottom: 15px;
+    line-height: 27px; 
+}
+aside{
+ /* float: right;
+  width: 500px;
+  height: 800px;*/
+  width: 30%;
+  height: 1310px;
+  background:#1e8bc2;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Garamond;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  padding: 50px;
+  position: absolute;
+  top:280px;
+  bottom:0;
+  right: 0;
+  left: 1000px;
+}
+footer {
+  width: 98%;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px ;
+  overflow: hidden;
+  text-align: center;
+  background: #333233;
+  color: #dee1ed;
+  padding: 15px 0;
+  border-radius: 20px;
+  overflow: hidden;
+ }
+  @media screen and (max-width: 800px) {
+    .main {
+      width: 100%; }
+  
+    aside {
+      width: 100%; }
+  
+    footer {
+      width: 100%; } }
