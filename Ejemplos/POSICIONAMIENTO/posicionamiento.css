@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #9837;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: #0e6b;
+    margin: 20px;
+}
+.caja_header{
+    width: 100%;
+    background: #936858 ;
+    
+}
+.caja_fotter{
+    width: 100%;
+    background: #fa4807 ;
+}
+.padre{
+    width: 100%;
+}
+.caja_main{
+    width: 70%;
+    background: #087152;
+}
+.caja_aside{
+    width: 25%;
+    background: #481202;
+    float: right;
+}
+/*.caja {
+    width: 200px;
+    height: 200px;
+    background: #0e6b;
+    margin: 20px;
+    float: left;
+}
+/*.posicionada{
+    background: #6698e3;
+    position: static;
+    top: -100px;
+    bottom: ;
+    left: ;
+    right: 200px;
+}
+/*Tipos de posicionamiento
+static, normal 
+relative , relativo
+absolute,absoluto
+fixed, fijo 
+float, flotante

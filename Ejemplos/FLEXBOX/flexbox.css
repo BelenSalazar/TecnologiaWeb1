@@ -1,0 +1,25 @@
+body{
+    background: blue;
+    font-family: Arial;
+}
+.contenedor{
+    width: 80%;
+    height: 500px;
+    max-width: 1000px;
+    background: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-content: center;
+}
+.caja{
+ width: 200px;
+ height: 200px;
+ text-align: center;
+ background: #f79256;
+ margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ color: aliceblue;
+}

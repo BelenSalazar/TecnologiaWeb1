@@ -1,20 +1,24 @@
 * {
     margin: 0px;
     padding:0px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }  
 body {
     width: 100%;
     font-family: Garamond, Sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     background: #2BBDBD;
     background-size: 400px 400px;
     color: #333233;
-    /*padding-bottom: 200em;*/
   }
-.contenedor {
+  header .titulo{
+    font-size: 50px;
+    color: #2BBDBD;
+    margin-left: 150px;
+    margin-top: -30px;  
+    text-align: center;
+  }
+  .contenedor {
     width: 98%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -22,43 +26,37 @@ body {
     margin-left: 20px;
     background: #333232;
     padding: 20px 50px;
-   /* border-radius: 20px;
-    overflow: hidden;
-	max-width: 1000px;*/
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
+    border-radius: 20px;
+	  display: flex;
+	  flex-direction:row;
+	  flex-wrap:wrap;
  }
 header {
     height: 150px;
     width: 100%;
     padding: 50px 20px;
-    /*margin: auto;*/
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:space-between;
-	align-items:center;
+  	display: flex;
+   	flex-direction:row;
+  	flex-wrap:wrap;
+	  justify-content:space-between;
+	  align-items:center;
     background: #333232;
+    border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
 }  
 header nav {
-    width: 90%;
-    font-family: Garamond, bold;
+    width: 100%;
     font-size: 26px;
     background: #2BBDBD;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
     align-items: flex-end;
-   /* width: 1300px;
-    align-items: flex-end;
-    margin: 30px;*/
 }
 header nav ul {
      list-style: none;
@@ -73,29 +71,33 @@ header nav ul li a {
    color: #2BBDBD;
    padding: 10px 8px; }
 header nav ul li a {
- color: #ffffff; }
- header .logo {
-width: 600px;
- float:right;
+     color: #ffffff; 
+}
+header .logo img {
+     width: 180px;
+     margin-top: -145px;
+     margin-left: -75px;
+     border-radius: 20px;
  }
- .articulo {
+.articulo {
     background: #dee1e1;
+    border-radius: 20px;
     width: 1000px;
-    height: 800px;
+    height: 700px;
     float: left;
     margin-top: 10px;
     margin-right: 10px;
-	/*padding: 20px;
-    width: 70%;*/
+}
+#contenido{
+  font-size:26px;
 }
 .parrafo{
-  font-size:16px ;
-  font-family: Garamond;
   text-align: justify;
   line-height: 500px;
 }
 #Destacado {
     border-bottom-color: #2BBDBD;
+    font-size:26px ;
     border-bottom-width: 5px;
     border-bottom-style:solid;
 }
@@ -109,6 +111,7 @@ main {
     width: 90%;
     float: left;
     background: #333232;
+    border-radius: 20px;
     margin-top: 60px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -117,10 +120,7 @@ main {
 main .CORONAVIRUS-INDEX img{  
    width: 1000px; 
    vertical-align: top;
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: 0;
-   margin-right: 0;
+   border-radius: 20px;
 }
  main .articulo {
     padding: 50px; 
@@ -134,14 +134,12 @@ main .articulo article p {
     line-height: 27px; 
 }
 aside{
- /* float: right;
-  width: 500px;
-  height: 800px;*/
   width: 30%;
-  height: 1310px;
+  height: 1210px;
   background:#1e8bc2;
+  border-radius: 20px;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 26px;
   font-family: Garamond;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -149,12 +147,11 @@ aside{
   padding: 50px;
   position: absolute;
   top:280px;
-  bottom:0;
-  right: 0;
   left: 1000px;
 }
 footer {
   width: 98%;
+  font-size: 16px;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 15px;
