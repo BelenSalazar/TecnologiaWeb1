@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="formularios .css">
+</head>
+<body>
+    <form class="formulario" action="" >
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" placeholder="Nombre:" maxlength="10" size="30px" name="nombre" required><br>
+        <input type="email" placeholder="example@gmail.com" name="correo" required><br>
+         
+        <label for="com">INTRODUZCA SU COMENTARIO:</label>
+        <textarea name="comentarios" id="com" placeholder="comentarios" cols="30" rows="10"></textarea> <br>
+        <br> <br>
+        <label for="ciudad">CIUDAD</label>
+    <select name="ciudad" id="ciudad">
+        <option value="Cochabamba">Cochabamba</option>
+        <option value="La paz">La Paz</option>  
+        <option value="Santa Cruz">Santa cruz</option> 
+    </select> <br> <br>
+    <input type="radio" name="genero" value="HOMBRE" id="HOMBRE">
+    <label for="HOMBRE">HOMBRE</label>
+    <input type="radio" name="genero" value="MUJER">    
+    <label for="MUJER">MUJER</label>  <br> <br>
+    
+  <input type="checkbox" name="TERMINOS" id="TERMINOS">
+  <label for="TERMINOS">ACEPTO LOS TERMINOS</label>
+  <br> <br>
+  <input type="submit" value="ENVIAR"> <br>
+    </form>
+</body>
+</html>
