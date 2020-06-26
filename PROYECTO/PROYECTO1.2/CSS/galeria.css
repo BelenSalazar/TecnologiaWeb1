@@ -108,7 +108,9 @@ body{
 
 #titulo-galeria{
     text-align: left; /*titulo estara alineado a la izquierda*/
-    margin:20px; 
+    text-align: center;
+    padding: 100px;
+    margin-bottom: -70px;
     color:white;
 }
 .contenedor-imagenes{
@@ -122,7 +124,7 @@ body{
 
 .contenedor-imagenes .imagen{
  width:40%;/*para que la cajas que contienen las imagenes  tengan un ancho del 40%*/
- position:relative;/*esta propiedad sera util cuando lo combinemos con absolute*/
+ position: relative;/*esta propiedad sera util cuando lo combinemos con absolute*/
  height:250px;
  margin-bottom:50px;/*margen superior*/
 }
@@ -133,10 +135,10 @@ body{
 }
 /*esta caja contiene un titulo descriptivo de la imagen*/
 .Descripcion{/*anteriormente puse un position relative que ahora me servira con el absolute*/
-    position:absolute;/*con el absolute se posicionara esta caja de acuerdo a la posicion de su caja padre (.imagen) si te das cuenta toma como referencia la imagen*/
+   position:absolute;/*con el absolute se posicionara esta caja de acuerdo a la posicion de su caja padre (.imagen) si te das cuenta toma como referencia la imagen*/
     bottom:0px; /*para que le titulo descriptivo se posicione 22 pixeles mas abajo de la imagen*/     
     left:0; /*con esto va estar el titulo a la misma rectura izquierda de su imagen*/
-    background:#70f3f3;
+    background:#2bbdbd;
     width:100%;/*hasta aqui se vera que el fondo de color abarca el 100% de ancho de la etiqueta h2*/
     height:0%; /*en esta parte no se vera el titulo descriptivo ya que tiene alto de 0 y por que ademas tiene overflow hidden */
     overflow: hidden; /*mediante esto el contenido es recortado solo muestra de acuerdo a las dimensiones especificadas*/

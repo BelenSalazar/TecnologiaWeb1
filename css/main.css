@@ -8,12 +8,12 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#8b2569;
+    color:#22a3ca;
 }
 
 h1 {
     font-size: 2rem;
-    color:#264855;
+    color:#ffff;
 }
 
 h2 {
@@ -21,7 +21,11 @@ h2 {
     text-align: center;
     border-bottom: 2px solid #bbb;
 }
-
+li a{
+    text-decoration: none;
+    color: #111111;
+    border-bottom: 2px solid #22a3ca;
+}
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
