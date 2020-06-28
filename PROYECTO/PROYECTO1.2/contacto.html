@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
        <br><br><br><br><br><br>
         <h3 class="til">ESCRIBENOS SI TIENE ALGUNA DUDA!</h3>
     
-    <form class="formulario1" action="agradecimiento.html" method="">
+    <form class="formulario1" action="agradecimiento.html" method="POST">
        <label for="nombre">Nombres:</label>
        
        <input type="text" id="nombre" name="NOMBRE" pattern="[A-Za-z]{5,30}" placeholder="nombre" title="ejemplo:Diego" required> 
@@ -42,7 +42,7 @@
        <label for="apellido">Aplellidos:</label>
        <input type="text" id="apellido" name="APELLIDO" pattern="[A-Za-z]{5,30}" placeholder="apellido" title="ejemplo:Torrico" required>
        <label for="correo">Correo Electronico:</label>
-       <input type="email" id="correo"name="CORREO" placeholder="example@gmail.com">
+       <input type="email" id="correo" name="CORREO" placeholder="example@gmail.com">
        <label for="telefono">Telefono:</label>
        <input type="tel" id="telefono" name="TELEFONO" pattern="[0-9]{8}" placeholder="telefono" required>
  
@@ -70,12 +70,12 @@
        <label for="tema">Informacion:</label>
        <div class="centrar">
        <select id="tema" name="TEMA">
-           <option value="seleccionar"selected disabled>Seleccionar tema</option>
+           <option value="seleccionar" selected disabled>Seleccionar tema</option>
            <option value="Covid 19 en Bolivia">Covid 19(Bolivia)</option>
            <option value="Sintomas del coronavirus">Sintomas de covid19</option>
            <option value="Recomendaciones">Recomendaciones(covid19)</option>
        </select>
-       <div>
+    </div>
 
 
 
