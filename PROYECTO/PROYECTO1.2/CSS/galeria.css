@@ -7,7 +7,7 @@
 body{
     background:black;
     
-}
+}  
 #titulo-galeria{
 
     text-align: center; /*titulo estara alineado a la izquierda*/
@@ -120,5 +120,5 @@ body{
         width:80%;
     }
     
-}         
+}   
 
